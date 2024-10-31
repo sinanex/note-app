@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:note_app/functions.dart/functions.dart';
 import 'package:note_app/model/model.dart';
 import 'package:note_app/screens/home.dart';
@@ -17,7 +16,6 @@ class _AddPageState extends State<AddPage> {
   TextEditingController titleCtrl = TextEditingController();
 
   TextEditingController noteCrtl = TextEditingController();
-  File? _selectedImage;
 
   @override
   Widget build(BuildContext context) {

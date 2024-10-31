@@ -17,8 +17,8 @@ class _HomePageState extends State<HomePage> {
 
   void searchUpdate() {
     searchList = dataNotifier.value
-        .where((stdModel) =>
-            stdModel.title!.toLowerCase().contains(search.toLowerCase()))
+        .where((serchdata) =>
+            serchdata.title!.toLowerCase().contains(search.toLowerCase()))
         .toList();
   }
 
